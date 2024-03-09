@@ -57,6 +57,8 @@ La siguiente misión es ejecutar una aplicación react localmente:
 6) Si te sale el Firewall dale click en cancelar
 7) Abrir la ruta http://localhost:3000/ en un navegador web como Firefox o Google Chrome
 
+![MicrosoftTeams-image (38)](https://github.com/PDSW-ECI/labs/assets/97971883/8a7438b3-42bc-4dad-aa38-a9c634aedb67)
+
 Ahora, has el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un recurso web dinámico o estático?
 
 ### PARTE III. - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC
@@ -71,6 +73,16 @@ Después de terminar el aprendizaje analice:
 - ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
 - Ahora, haz el request GET http://localhost:8080/greeting usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un recurso web dinámico o estático?
 
+![MicrosoftTeams-image (33)](https://github.com/PDSW-ECI/labs/assets/97971883/8fc50ab5-d228-4d84-857d-73f115a2a96f)
+
+![MicrosoftTeams-image (34)](https://github.com/PDSW-ECI/labs/assets/97971883/b2de21b2-c96c-49b6-b027-0dd30d1412e6)
+
+![MicrosoftTeams-image (35)](https://github.com/PDSW-ECI/labs/assets/97971883/ac5b1fef-1029-45e5-9e65-706beef33e09)
+
+![MicrosoftTeams-image (36)](https://github.com/PDSW-ECI/labs/assets/97971883/0892daa6-9a4c-4bab-948b-eba303375408)
+
+![MicrosoftTeams-image (37)](https://github.com/PDSW-ECI/labs/assets/97971883/8df17633-2d57-4942-a3d2-5a95a4425bcb)
+
 ### PARTE IV. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
 Usando la arquitectura MVC del punto anterior (el proyecto anterior), realice una aplicación simple qué permita navegar gráficamente sobre esta API
 https://jsonplaceholder.typicode.com/todos/1, puede guiarse de tutoriales como https://medium.com/@nutanbhogendrasharma/consume-rest-api-in-spring-boot-web-application-354c404850f0
@@ -78,6 +90,26 @@ https://jsonplaceholder.typicode.com/todos/1, puede guiarse de tutoriales como h
 Luego de terminada esta parte responda:
 - ¿Qué es RESTful?
 - Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, ¿en qué capa se haría su uso?
+
+![MicrosoftTeams-image (39)](https://github.com/PDSW-ECI/labs/assets/97971883/677265ff-c6a3-4cff-ac7d-83cf38390cf2)
+
+![MicrosoftTeams-image (40)](https://github.com/PDSW-ECI/labs/assets/97971883/0b59edb3-cbbf-4a2e-86d4-b10a6264310a)
+
+![MicrosoftTeams-image (41)](https://github.com/PDSW-ECI/labs/assets/97971883/9564490d-a995-4d91-a13a-aa243cd5f5f8)
+
+![MicrosoftTeams-image (42)](https://github.com/PDSW-ECI/labs/assets/97971883/746171e1-197c-47a6-b123-9a5b3ac93454)
+
+![MicrosoftTeams-image (43)](https://github.com/PDSW-ECI/labs/assets/97971883/442363c4-1ea0-4059-b519-bc1df1d6b17f)
+
+![MicrosoftTeams-image (44)](https://github.com/PDSW-ECI/labs/assets/97971883/acebb963-b214-4f73-8883-dd2b22c690f6)
+
+![MicrosoftTeams-image (45)](https://github.com/PDSW-ECI/labs/assets/97971883/d6606806-25a8-4338-bfb4-95bb51e0f3da)
+
+![MicrosoftTeams-image (46)](https://github.com/PDSW-ECI/labs/assets/97971883/880d50f0-ace0-4537-aaa5-932b0fc32e67)
+
+![MicrosoftTeams-image (47)](https://github.com/PDSW-ECI/labs/assets/97971883/16ef574e-c473-4c6a-a33f-bb64fe0337c0)
+
+![MicrosoftTeams-image (48)](https://github.com/PDSW-ECI/labs/assets/97971883/a35ad59f-527c-494e-af75-2dde53ea3ca2)
 
 ### PARTE V. - APLICACIÓN MVC JUEGO
 ¡Llego la hora del reto! Teniendo las bases del uso del framework, cree una nueva ruta, por ejemplo `/guess`, y agrege formulario básico con un campo llamado "número" (guía de como crear formularios HTML https://www.w3schools.com/html/)
@@ -92,6 +124,9 @@ se reduce en $10.000, como en los juegos de apuesta, es natural qué quede en sa
 Analice las siguientes situaciones:
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
 - Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
+
+
+![MicrosoftTeams-image (32)](https://github.com/PDSW-ECI/labs/assets/97971883/98a6fa8c-74e3-4973-a470-51a214ce9a38)
 
 ## ENTREGA
 - En un README.md colocar lo siguiente:
