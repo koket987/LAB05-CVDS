@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Adivinanza</title>
+</head>
+<body>
+<h1>Juego de Adivinanza</h1>
+<p>Premio actual: $<span th:text="${prize}"></span></p>
+<form action="/guess" method="post">
+    <input type="hidden" name="randomNumber" value="${randomNumber}"> <!-- Agrega un campo oculto para el número aleatorio -->
+    <label for="numero">Ingrese un número (1-10):</label><br>
+    <input type="number" id="numero" name="numero" min="1" max="10"><br><br>
+    <input type="submit" value="Adivinar">
+</form>
+<p th:text="${message}"></p>
+<form action="/reset" method="get">
+    <input type="submit" value="Reiniciar">
+</form>
+</body>
+</html>
